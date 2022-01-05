@@ -15,7 +15,7 @@ git clone https://github.com/ryanmwakio/markdown_engine.git
 ```
 
 Navigate into the project folder<br>
-For the next step make sure you have node installed
+For the next step make sure you have node installed [installing node](https://nodejs.org/en/download/ "instructions on installing node into your computer")
 
 ```bash
 npm install
