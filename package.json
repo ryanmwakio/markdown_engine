@@ -1,0 +1,16 @@
+{
+  "name": "markdown_engine",
+  "version": "1.0.0",
+  "description": "convert markdown to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryanmwakio6@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "showdown": "^1.9.1"
+  }
+}
