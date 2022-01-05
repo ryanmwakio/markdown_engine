@@ -110,4 +110,4 @@ app.post("/convert", (req, res, next) => {
 - [x] process the markdown
 - [x] generate html
 - [x] output the generated html
-- [x] extended useful error messages
+- [ ] extended useful error messages
