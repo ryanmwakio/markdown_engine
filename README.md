@@ -4,4 +4,6 @@
 
 A live preview of the project [markdown engine](https://markdown-engine.herokuapp.com "live preview"), the engine receives markdown text in a form, converts the markdown to html and downloads for you the converted html.
 
+![project image](https://github.com/ryanmwakio/markdown_engine/blob/master/img_1.png)
+
 ---
