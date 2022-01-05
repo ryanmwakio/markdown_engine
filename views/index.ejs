@@ -11,6 +11,31 @@
     <title>Document</title>
   </head>
   <body>
-      <main class=""></main>
+    <main class="mx-20 my-5">
+      <div class="bg-purple-500 p-3 text-white uppercase tracking-widest">
+        Markdown Engine pesapal
+      </div>
+      <div class="bg-gray-200 flex justify-center align-middle h-auto pb-5">
+        <div class="w-2/3">
+          <p class="mt-10 bg-purple-500 text-white p-2 lowercase text-sm">
+            Convert any markdown into html
+          </p>
+        <form action=<%= url+"/convert" %>  method="post">
+          <div class="my-2">
+            <textarea
+              id="about"
+              name="content"
+              rows="6"
+              class="rounded-sm p-2 w-full text-sm h-34 focus:outline-none focus:shadow-md resize-none"
+              placeholder="enter the markdown text to be converted"
+            ></textarea>
+          </div>
+          <button class="bg-purple-500 text-white py-2 px-3 rounded-sm text-sm">
+            convert
+          </button>
+        </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
