@@ -11,6 +11,7 @@ const uniqid = require("uniqid");
 
 var app = express();
 app.use(express.static(path.join(__dirname, "generated_html")));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
